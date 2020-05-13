@@ -1,0 +1,274 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.bShadow {
+	box-shadow: 0 0 10px grey;
+}
+
+.mainWrap {
+	width: 1750px;
+	margin: 0 auto;
+}
+
+.mainLogo {
+	border-top: 5px outset green;
+	border-bottom: 5px inset red;
+}
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.navBar {
+	height: 50px;
+	background-color: #5bb53b;
+	border-bottom: 1px solid white;
+}
+
+.navBar ul {
+	width: 65%;
+	margin: auto;
+}
+
+.navBar ul li {
+	list-style: none;
+	float: left;
+	padding: 14px 10px 18px 9px;
+	cursor: pointer;
+}
+
+.navBar ul li:hover {
+	background-color: #1e5225;
+	color: white;
+}
+
+.slider img {
+	height: 300px;
+	width: 1000px;
+	float: left;
+	margin-left: 10px;
+}
+
+.latestNews {
+  margin-top: 10px;
+	height: 30px;
+	background-color: #d3d4d5;
+	margin-bottom: 20px;
+}
+
+.latestNews p {
+	width: 6%;
+	float: left;
+	padding-top: 5px;
+	margin-left: 10px;
+}
+
+.latestNews marquee {
+	width: 93%;
+	float: left;
+	padding-top: 5px;
+}
+
+.LHS {
+	float: left;
+	margin: 5px 5px 5px 0;
+	padding: 5px;
+	width: 73%;
+}
+
+.RHS {
+	float: left;
+	padding: 5px;
+	margin-left: 5px;
+	width: 25%;
+}
+
+.welcomeTo {
+	height: 300px;
+	margin: 0 10px 10px 10px;
+}
+
+.contentHeader {
+	background-color: #1e5225;
+	padding: 8px;
+	color: white;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+
+.gContent {
+	margin: 15px;
+}
+
+.pMSG {
+	float: left;
+	margin: 20px 10px 20px 10px;
+	height: 250px;
+	width: 48%;
+}
+
+.vpMSG {
+	float: right;
+	margin: 20px 10px 20px 10px;
+	height: 250px;
+	width: 48%;
+}
+
+.govBody {
+	height: 275px;
+	margin: 20px 10px 20px 10px;
+	float: left;
+	width: 98.5%;
+}
+
+iframe {
+	margin: 15px;
+}
+
+.lists {
+	margin-top: -22px;
+}
+.lists ul li {
+	list-style: none;
+	background-color: red;
+	margin: 25px 0 25px 10px;
+	padding: 10px;
+	font-size: 18px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.lists ul li:nth-child(4) {
+	background-color: green;
+}
+
+.noticeB {
+	margin-left: 10px;
+	height: 250px;
+}
+
+.noticeB marquee {
+	padding: 20px;
+	position: relative;
+	bottom: 18px;
+}
+.thinHeader {
+	background-color: #1e5225;
+	padding: 10px;
+	color: white;
+	border-radius: 5px;
+  font-weight: lighter;
+  text-transform: uppercase;
+}
+
+.formDown {
+	margin-left: 10px;
+	height: 200px;
+}
+
+.formDown ul {
+	margin: 10px;
+}
+
+.formDown ul li {
+	list-style: none;
+	padding: 5px;
+}
+
+.formDown ul li a {
+	text-decoration: underline;
+	margin-left: 20px;
+	color: black;
+}
+
+.impLink {
+	margin: 20px 0 20px 10px;
+}
+
+.impLink ul {
+	margin: 0 0 0 15px;
+	padding: 20px;
+}
+.impLink ul li {
+	list-style: square;
+	padding: 2px;
+	color: black;
+}
+
+.impLink ul li a {
+	text-decoration: underline;
+	color: black;
+  cursor: pointer;
+}
+
+.contact {
+	margin-left: 10px;
+}
+.contact ul li {
+	list-style: none;
+	padding: 5px;
+	border: 1px solid black;
+}
+
+.contact ul li a {
+	text-decoration: none;
+	color: black;
+}
+
+.photoG {
+	height: 150px;
+	float: left;
+	height: 100%;
+}
+.photoG img {
+	height: 100px;
+	padding: 15px 0 15px 0;
+}
+
+.bottomSection {
+  float: left;
+  width: 100%;
+}
+
+.calendar {
+  float: left;
+  margin: 15px 15px 15px 0;
+  height: 400px;
+  width: 32.8%;
+}
+
+.gMap {
+  float: left;
+  margin: 15px 15px 15px 0;
+  height: 400px;
+  width: 32.7%;
+}
+
+.contactUS {
+  float: right;
+  margin: 15px 0 15px 0;
+  height: 400px;
+  width: 32.7%;
+}
+
+footer {
+  float: left;
+  height: 50px;
+  width: 100%;
+  border-top: 4px outset red;
+  background-color:#1E5225;
+}
+
+footer p {
+  color: white;
+  padding: 15px;
+}
+
+footer a {
+  text-decoration: none;
+  color: yellowgreen;
+}
